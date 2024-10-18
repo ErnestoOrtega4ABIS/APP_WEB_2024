@@ -1,0 +1,91 @@
+body {
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 2vmax; /* Usamos vmax para adaptarse mejor a la pantalla */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    border-radius: 1vmax;
+    box-shadow: 0 1vmax 2vmax rgba(0, 0, 0, 0.3);
+    width: 80vw; 
+    margin-top: 2vmax; 
+}
+
+hr {
+    background-color: #fff;
+    border: none;
+    height: 0.2vmax;
+    width: 80vw; 
+    margin: 2vmax auto;
+}
+
+form {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 2vmax;
+    border-radius: 1vmax;
+    box-shadow: 0 1vmax 2vmax rgba(0, 0, 0, 0.4);
+    width: 40vw;
+    margin-top: 2vmax; 
+}
+
+form input[type="number"],
+form select {
+    width: 80%; 
+    padding: 1vmax;
+    margin: 1vmax 0;
+    border-radius: 0.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.5vmax;
+    background-color: #fff;
+    color: #333;
+}
+
+form input[type="button"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 1vmax 2vmax;
+    border-radius: 0.5vmax;
+    cursor: pointer;
+    font-size: 1.5vw;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="button"]:hover {
+    background-color: #13381b;
+}
+
+form input[type="button"]:active {
+    background-color: #3db4e3;
+}
+
+#result {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 2vmax;
+    border-radius: 1vmax;
+    box-shadow: 0 1vmax 2vmax rgba(0, 0, 0, 0.4);
+    width: 40vw; 
+    margin-top: 2vmax; 
+    font-size: 2vmax;
+}
